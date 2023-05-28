@@ -1,15 +1,14 @@
 import React from "react";
 import Quiz from "./components/Quiz";
-import { QuizProvider } from "./components/QuizContext";
+import { Provider } from "react-redux";
+import store from "./components/store";
 import "./styles/App.css";
 
 function App() {
   return (
-    <>
-      <QuizProvider>
-        <Quiz />
-      </QuizProvider>
-    </>
+    <Provider store={store}>
+      <Quiz />
+    </Provider>
   );
 }
 

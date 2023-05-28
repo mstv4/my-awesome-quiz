@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Avant Garde", "Century Gothic", "AppleGothic", sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+.wrapper h1 {
+  font-size: 32px;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+}
+.wrapper h1 span {
+  color: #ff4742;
+}
+.wrapper h2 {
+  font-size: 40px;
+  margin-top: 25px;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+}
+.wrapper h2 span {
+  color: #ff4742;
+}
+.wrapper button {
+  margin-top: 25px;
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+          box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  padding: 12px 14px;
+  text-align: center;
+  font-family: "Avant Garde", "Century Gothic", "AppleGothic", sans-serif;
+}
+.wrapper button:hover {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}/*# sourceMappingURL=App.css.map */
